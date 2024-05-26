@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import TextForm from "./components/TextForm";
 import Alert from "./components/Alert";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import TextUtils from "./components/TextUtils";
 
 interface Alerts {
   msg: string;
@@ -43,7 +44,10 @@ function App() {
         <Alert alert={alert} />
         
         <Routes>
-        
+        <Route index
+            path="/text-utils" 
+            element={<TextUtils showAlert={showAlert} mode={mode} toggleMode={toggleMode} />} 
+          />
           <Route index
             path="/" 
             element={<TextForm showAlert={showAlert} mode={mode} toggleMode={toggleMode} />} 
