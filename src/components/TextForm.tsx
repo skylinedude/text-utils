@@ -39,7 +39,8 @@ props.showAlert("Text copied", "success")
 
   return (
     <>
-      <div className="container" style={{color:props.mode==='dark'?'white':'black'}}>
+      <div className="container mb-2" style={{color:props.mode==='dark'?'white':'black'}}>
+      <p> </p>
         <h2 >Enter your text below</h2>
         <textarea className="form-control mb-3" value={text}  style={{backgroundColor:props.mode==='dark'?'black':'white',color:props.mode==='dark'?'white':'black'}} onChange={handleOnChange} id="myBox" rows={8}></textarea>
         <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>Convert to upper case</button>
