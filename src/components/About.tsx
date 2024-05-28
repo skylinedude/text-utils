@@ -18,7 +18,7 @@ export default function About(props:any) {
           </button>
         </h2>
         <div id="flush-collapseOne" className="accordion-collapse collapse" style={myStyle} data-bs-parent="#accordionFlushExample">
-          <div className="accordion-body" style={myStyle}>A text utilities (text utils) app is a versatile tool designed to perform a variety of text processing and manipulation tasks. These apps can range from simple tools that handle basic text editing to more complex applications that perform advanced text analysis and transformation.</div>
+          <div className="accordion-body" style={myStyle}>Skyline utils a text utilities web app is a versatile tool designed to perform a variety of text processing and manipulation tasks. These apps can range from simple tools that handle basic text editing to more complex applications that perform advanced text analysis and transformation.</div>
         </div>
       </div>
       <div className="accordion-item">
